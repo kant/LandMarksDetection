@@ -12,7 +12,7 @@ The following dependencies are needed:
 
 **1、Preprocess**
 
-* first,load image and landmark coords from csv,then resize to net input size,last generate landmarks heatmaps:run the data2dprepare.py
+* first, load image and landmark coords from csv, then resize to net input size, last generate landmarks heatmaps: run the `data2dprepare.py`
 * image and landmarks heatmaps
 
 ![](Image.jpeg)
@@ -20,7 +20,7 @@ The following dependencies are needed:
 ![](landmarksheatmaps.bmp)
 
 
-* save image and mask into csv file: run the utils.py,like file traindetection.csv
+* save image and mask into csv file: run the `utils.py`, like file traindetection.csv
 
 **2、LandMarks Detection**
 
